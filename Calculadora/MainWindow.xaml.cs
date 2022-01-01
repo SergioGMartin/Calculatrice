@@ -23,7 +23,7 @@ namespace Calculadora
     {
         
         double num1=0, num2=0, res=0;
-        string simbolo;
+        string simbolo="";
         public MainWindow()
         {
             InitializeComponent();
@@ -188,7 +188,7 @@ namespace Calculadora
             }
             simbolo = "";
             operador1.Text = "";
-            result.Text = res +"";
+            result.Text = res + "";
             num1 = 0; num2 = 0; res = 0;
         }
 

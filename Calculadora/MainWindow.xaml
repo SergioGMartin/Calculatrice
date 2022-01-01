@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculadora"
         mc:Ignorable="d"
-        Title="Calculatrice" Height="600" Width="450">
+        Title="Calculatrice" Height="550" Width="450">
     <Grid Background="#FFF1F7F7">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
@@ -16,8 +16,8 @@
 
         <Grid.RowDefinitions>
             <RowDefinition Height="35"></RowDefinition>
-            <RowDefinition Height="100"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
@@ -27,7 +27,7 @@
         </Grid.RowDefinitions>
 
         <TextBlock Grid.ColumnSpan="5" Grid.Row="0" HorizontalAlignment="Left" Margin="14 0" FontSize="24" Name="operador1"></TextBlock>
-        <TextBlock Grid.ColumnSpan="5" Grid.Row="1" HorizontalAlignment="Right" Margin="14 0" FontSize="60" Name="result" Text="0"></TextBlock>
+        <TextBlock Grid.ColumnSpan="5" Grid.Row="1" HorizontalAlignment="Right" Margin="14 0" FontSize="38" Name="result" Text="0"></TextBlock>
 
         <Button Grid.Column="0" Grid.Row="3" FontSize="28" Content="%"></Button>
         <Button Grid.Column="1" Grid.Row="3" FontSize="28" Content="CE" Click="Button_Click_borrarNum2"></Button>
